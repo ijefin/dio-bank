@@ -15,5 +15,6 @@ contaJtech.getLoan(5000);
 contaJtech.getLoan(5000);
 contaJtech.getLoan(5000);
 contaJtech.getLoan(5000);
+contaJtech.getBalance();
 contaJtech.getLoan(5000);
 contaJtech.getBalance();
