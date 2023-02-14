@@ -16,7 +16,7 @@ desenvolvido por [Jefferson L Gomes](https://github.com/ijefin)
 
 3 - Execute o projeto
 
-    npm run dev
+    `npm run dev` / `yarn dev`
 
 #### Desafios
 [ x ] Implementar os métodos de depósito (deposit) e saque (withdraw) na classe DioAccount

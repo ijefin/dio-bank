@@ -4,4 +4,8 @@ export class BonusAcount extends DioAccount {
   constructor(name: string, accountNumber: number) {
     super(name, accountNumber);
   }
+
+  deposit = (accountNumber: number) => {
+    
+  };
 }
