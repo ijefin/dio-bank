@@ -24,7 +24,7 @@ export abstract class DioAccount {
 
   withdraw = (amount: number): void => {
     if (this.validateStatus() && this.validateWithdrawAmount(amount)) {
-      const withdrawn = this.balance - amount;
+      const withdrawn = this.balance -= amount;
       console.log(`Você sacou ${amount}. Saldo atual: ${withdrawn}`);
     }
   };
