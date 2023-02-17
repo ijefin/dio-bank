@@ -18,13 +18,13 @@ export abstract class DioAccount {
     console.log("Nome alterado com sucesso!");
   };
 
-  deposit = (accountNumber: number): void => {
-    this.balance += accountNumber;
+  deposit = (amount: number): void => {
+    this.balance += amount;
   };
 
   withdraw = (amount: number): void => {
     if (this.validateStatus() && this.validateWithdrawAmount(amount)) {
-      const withdrawn = this.balance -= amount;
+      const withdrawn = (this.balance -= amount);
       console.log(`Você sacou ${amount}. Saldo atual: ${withdrawn}`);
     }
   };
