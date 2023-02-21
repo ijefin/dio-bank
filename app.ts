@@ -1,3 +1,4 @@
+import { BonusAcount } from "./class/BonusAccount";
 import { CompanyAccount } from "./class/CompanyAccount";
 import { PeopleAccount } from "./class/PeopleAccount";
 
@@ -17,7 +18,10 @@ contaJtech.getLoan(5000);
 contaJtech.getBalance();
 contaJtech.getLoan(5000);
 contaJtech.getBalance();
-
-contaJtech.withdraw(20000)
-contaJtech.deposit(1000000)
+contaJtech.withdraw(20000);
+contaJtech.deposit(1000000);
 contaJtech.getBalance();
+
+const contaBonus: BonusAcount = new BonusAcount("JtechCredits", 179437);
+contaBonus.deposit(5000);
+contaBonus.getBalance()

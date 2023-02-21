@@ -5,7 +5,7 @@ export class BonusAcount extends DioAccount {
     super(name, accountNumber);
   }
 
-  deposit = (accountNumber: number) => {
-    
+  deposit = (amount: number): void => {
+    this.setBalance(amount + 10);
   };
 }
